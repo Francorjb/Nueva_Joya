@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --color-principal: #24B4FF;
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-secundario: #9ED9E8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+/* HEADER */
+
+.navegacion{
+    padding: 2rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.img_logo{
+    width: 16rem;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.nav_principal ul{
+    display: flex;
+    gap: 3em;
+    top: 20%;
+    right: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.lista_nav{
+    position: absolute;
+}
+
+.elemento_lista{
+    list-style: none;
+}
+
+.elemento_lista a {
+    text-decoration: none;
+    color: var(--color-blanco);
+    font-size: 1.4em;
+}
+
+/* MAIN */
+
+.main_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.section_video-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_video-logo img{
+    height: 100vh;
+}
+
+/* */
+
+.section_reel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-blanco);
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.video{
+    width: 400px;
+    height: 600px;
+}
+
+.section_reel p{
+    color: rgb(0, 0, 0);
+    background-color: hsla(208, 88%, 70%, 0.425);
+    padding: 1.5rem;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*  */
+.section_ultimo-estreno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+.section_ultimo-estreno p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.section_ultimo-estreno video{
+    width: 100%;
+    height: 100vh;
+}
+/*  */
+
+/* agregar una linea iluminada como si fuese una lampara */
+    .linea-videos{
+        background-color: white;
+        width: 90%;
+        height: 0.2rem;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+ /* CARRUSEL DE IMAGENES */
+    .section-carrusel{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 30em;
+        margin: auto;
+        margin-bottom: 3rem ;
+        gap: 1rem;
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .parrafo-carrusel{
+        max-width: 600px;
+        padding: 2rem;
+        height: 30rem;
+        background-color: var(--color-principal);
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin: auto;
+        text-align: center;
+    }
+    .swiper {
+        max-width: 1000px;
+        width: 100%;
+        height: 25rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        max-width: 30em;
+        max-height: 100%;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+/*  */
+
+.triple-video{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 1rem;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.triple-video iframe{
+    width: 25em;
+}
+
+/*  */
+.section_estudio{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1500px;
+    gap: 2rem;
+    background-color: white;
+}
+
+.section_estudio img{
+    width: 600px;
+    height: 600px;
+}
+.section_estudio p{
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+/*  */
+.section-dron{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80vh;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.section-dron video{
+    width: 100%;
+}
+
+.section-dron p {
+    width: 25rem;
+    height: 100%;
+    display: flex;
+    background: var(--color-principal);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+.footer_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.7rem 0 0.7rem;
+}
+.footer-redes{
+    display: flex;
+    gap: 1.3rem;
+}
+.iconos-redes{
+    width: 3rem;
+}
+.home_icon{
+width: 3rem;
+}
+
+/*  */
